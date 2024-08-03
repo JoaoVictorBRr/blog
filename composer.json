@@ -1,0 +1,32 @@
+{
+    "name": "joaovictorbrr/blog",
+    "description": "Projeto para portifolio, blog de um site",
+    "license": "MIT",
+    "minimum-stability": "stable",
+
+    "authors": [
+        {
+            "name":"João",
+            "email": "jvictor.oliv2000@gmail.com",
+            "role": " Developer",
+            "homepage": "http://blog.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        },
+        "files": [
+            "config/connection.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "^2.0",
+        "coffeecode/router": "^2.0",
+        "league/plates": "^3.5",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
