@@ -12,18 +12,37 @@
                 <div class="bloquinho_linha_titulo"></div>
                 <div class="linha_titulo"></div>
             </div>
+            
             <div class="carrosel_mais_recentes">
-               
-                <div class="item_mais_recentes">
-                    <div class="div_text_mais_recentes">
-                        <p class="item_text_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus </p>
-                        <p class="item_text_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur suscipit </p>
-                        <p class="item_text_data">29 Fevereito, 2024</p>
+      
+                <div>
+                    <div class="item_mais_recentes">
+                        <div class="div_text_mais_recentes">
+                            <p class="item_text_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus </p>
+                            <p class="item_text_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur suscipit </p>
+                            <p class="item_text_data">29 Fevereito, 2024</p>
+                        </div>
+                        <img class="item_img_mais_recentes" src="./images/casa.webp" alt="teste">
                     </div>
-                    <img class="item_img_mais_recentes" src="./images/casa.webp" alt="teste">
                 </div>
+
+                <div>
+                    <div class="item_mais_recentes">
+                        <div class="div_text_mais_recentes">
+                            <p class="item_text_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus </p>
+                            <p class="item_text_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur suscipit </p>
+                            <p class="item_text_data">29 Fevereito, 2024</p>
+                        </div>
+                        <img class="item_img_mais_recentes" src="./images/casa.webp" alt="teste">
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
+
+    <div>
+        
     </div>
 
     <div class="containers container_conheca_bairros">
@@ -37,7 +56,6 @@
 
             <div class="carrosel_bairros">
                 <div>
-                 
                     <img class="item_img_bairros" src="./images/casa.webp" alt="teste">
                     <p class="item_text_bairros">Lorem ipsum dolor</p>
                 </div>
@@ -53,6 +71,11 @@
                     <img class="item_img_bairros" src="./images/casa.webp" alt="teste">
                     <p class="item_text_bairros">Lorem ipsum dolor</p>
                 </div>
+                <div>
+                    <img class="item_img_bairros" src="./images/casa.webp" alt="teste">
+                    <p class="item_text_bairros">Lorem ipsum dolor</p>
+                </div>
+
             </div>
         </div>
     </div>
@@ -81,6 +104,7 @@
                     </div>
 
                 </div>  
+
                 <div class="div_item_mercado">
                     <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
                     <div class="div_text_mercado">
@@ -94,6 +118,21 @@
                     </div>
 
                 </div>  
+
+                <div class="div_item_mercado">
+                    <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
+                    <div class="div_text_mercado">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <div class="bloquinho_linha_titulo"></div>
+                            <div class="linha_titulo"></div>
+                        </div>   
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <a href="">LEIA MAIS +</a>
+                    </div>
+
+                </div>  
+                
                 <div class="div_item_mercado">
                     <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
                     <div class="div_text_mercado">
@@ -180,7 +219,7 @@
                 <div class="linha_titulo"></div>
             </div>   
 
-            <div class="carrosel_mercado">
+            <div class="carrosel_youtube">
                 <div class="div_item_mercado">
                     <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
                     <div class="div_text_mercado">
@@ -192,7 +231,6 @@
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                         <a href="">LEIA MAIS +</a>
                     </div>
-
                 </div>  
                 <div class="div_item_mercado">
                     <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
@@ -205,8 +243,20 @@
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                         <a href="">LEIA MAIS +</a>
                     </div>
-
                 </div>  
+                <div class="div_item_mercado">
+                    <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
+                    <div class="div_text_mercado">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <div class="bloquinho_linha_titulo"></div>
+                            <div class="linha_titulo"></div>
+                        </div>   
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <a href="">LEIA MAIS +</a>
+                    </div>
+                </div>  
+
                 <div class="div_item_mercado">
                     <img class="item_img_mercados" src="./images/casa.webp" alt="teste">
                     <div class="div_text_mercado">
@@ -230,17 +280,17 @@
     <div class="container_novidades_youtube"></div>
     <div class="container_lançamentos"></div>
 
-
-</section>
-
-<section class="container_contato">
-    <div class="content_text_contato">
-        <p>Descubra em nosso site os melhores imóveis em Piracicaba</p>
-        <p>para aluguel, compra ou investimento!</p>
+    
+    <div class="container_contato">
+        <div class="content_text_contato">
+            <p>Descubra em nosso site os melhores imóveis em Piracicaba</p>
+            <p>para aluguel, compra ou investimento!</p>
+        </div>
+        <div class="content_btn_contato ">
+            <button>Comprar</button>
+            <button>Alguar</button>
+            <button>Lançamentos</button>
+        </div>
     </div>
-    <div class="content_btn_contato ">
-        <button>Comprar</button>
-        <button>Alguar</button>
-        <button>Lançamentos</button>
-    </div>
+
 </section>

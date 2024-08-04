@@ -10,6 +10,17 @@
     gap: 25px;
 }
 
+.carrosel_mais_recentes, .carrosel_bairros, .carrosel_mercado, .carrosel_youtube{
+    width: 75rem;
+    display: flex;
+
+}
+
+.carrosel_mercado div, .carrosel_youtube div{
+   margin: 10px;
+}
+
+
 .container_mais_recentes{
     background-color: rgb(243, 243, 243);
 }
@@ -61,10 +72,6 @@
 
 
 
-.carrosel_bairros{
-    display: flex;
-    gap: 20px;
-}
 
 .item_img_bairros{
     width: 290px;
@@ -88,13 +95,6 @@
 
 /* /////////////////////////////// */
 
-.carrosel_mercado{
-    display: flex;
-    gap: 10px;
-    width: 77rem;
-    align-items: center;
-    justify-content: center;
-}
 
 .div_item_mercado{
     display: flex;

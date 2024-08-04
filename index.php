@@ -12,8 +12,7 @@ $router->namespace("Source");
 
 $router->group(null);
 $router->get("/", "Pages:homePage");
-
-
+$router->get("/conheca-os-bairros", "Pages:conhecaBairrosPage");
 
 
 $router->dispatch();

@@ -18,5 +18,11 @@ Class Pages{
         echo $this->view->render("footer");
     }
 
+    public function conhecaBairrosPage(){
+        echo $this->view->render("header");
+        echo $this->view->render("conheca-os-bairros");
+        echo $this->view->render("footer");
+    }
+
     
 }
