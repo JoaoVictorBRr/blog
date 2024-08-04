@@ -116,3 +116,135 @@
     width: 100%;
     height: 200px;
 }
+
+/* //////////////////// */
+.div_content_dicas{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.grid_item_dicas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item_dica{
+    background-color:  rgb(147, 0, 0);
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    border-radius: 30px;
+    color: white;
+}
+
+.item_dica div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title_content_dicas{
+    font-size: 20px;
+}
+
+.item_img_dicas{
+    width: 200px;
+    height: 200px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn_veja_mais{
+    color:  rgb(147, 0, 0);
+    background-color: none;
+    border: solid  rgb(147, 0, 0) 1px;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: none;
+   
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border-radius: 14px;
+ 
+}
+
+.div_btn_veja_mais{
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.btn_veja_mais:hover{
+    background-color:  rgb(147, 0, 0);
+    color: white;
+}
+
+/* ///////////////// */
+
+.container_contato {
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+    width: 100%;
+    height: 400px; /* Altura do contêiner */
+    background-image: url("http://localhost/blog/images/foto_duo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.container_contato::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content_text_contato, .content_btn_contato{
+    position: relative; 
+    z-index: 2; 
+    color: white; 
+}
+
+.content_text_contato{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.content_btn_contato{
+    display: flex;
+    gap: 20px;
+}
+
+.content_btn_contato button{
+    color: white;
+    background-color: transparent;
+    border: solid  rgb(255, 255, 255) 1px;
+    cursor: pointer;
+    transition: 0.6s;
+    text-decoration: none;
+   
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 14px;
+    transition: 0.6s;
+}
+
+.content_btn_contato button:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+   
+}

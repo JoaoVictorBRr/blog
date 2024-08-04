@@ -125,27 +125,49 @@
             </div>   
 
             <div class="div_content_dicas">
-                <div class="item_dica">
-                    <div>
-                        <p>3 Caminha Duo</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                <div class="grid_item_dicas">
+                    <div class="item_dica">
+                        <div>
+                            <strong><p class="title_content_dicas">3 Caminha Duo</p></strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        </div>
+                        <img class="item_img_dicas" src="./images/casa.webp" alt="teste">
                     </div>
-                    <img class="item_img_bairros" src="./images/casa.webp" alt="teste">
+                    <div class="item_dica">
+                        <div>
+                        <strong>  <p class="title_content_dicas">3 Caminha Duo</p></strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        </div>
+                        <img class="item_img_dicas" src="./images/casa.webp" alt="teste">
+                    </div>
                 </div>
-            </div>
 
-            <a href="">Veja Mais</a>
+                <div class="grid_item_dicas">
+            
+                    <div class="item_dica">
+                        <div>
+                        <strong><p class="title_content_dicas">3 Caminha Duo</p></strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        </div>
+                        <img class="item_img_dicas" src="./images/casa.webp" alt="teste">
+                    </div>
+                    <div class="item_dica">
+                        <div>
+                        <strong> <p class="title_content_dicas">3 Caminha Duo</p></strong>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        </div>
+                        <img class="item_img_dicas" src="./images/casa.webp" alt="teste">
+                    </div>
+                </div>
+
+            </div>
+            <div class="div_btn_veja_mais">
+                <a class="btn_veja_mais" href="">Veja Mais</a>
+            </div>
 
         </div>
 
     </div>
-
-
-
-
-
-
-
 
     <!-- Ajustar para youtube -->
      <div class="containers container_mercado">
@@ -209,4 +231,16 @@
     <div class="container_lançamentos"></div>
 
 
+</section>
+
+<section class="container_contato">
+    <div class="content_text_contato">
+        <p>Descubra em nosso site os melhores imóveis em Piracicaba</p>
+        <p>para aluguel, compra ou investimento!</p>
+    </div>
+    <div class="content_btn_contato ">
+        <button>Comprar</button>
+        <button>Alguar</button>
+        <button>Lançamentos</button>
+    </div>
 </section>
