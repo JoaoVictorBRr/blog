@@ -157,7 +157,6 @@
 
         <div class="divs div_dicas">
             <h3 class="titles">Dicas de sucesso </h3>
-           
             <div>
                 <div class="bloquinho_linha_titulo"></div>
                 <div class="linha_titulo"></div>

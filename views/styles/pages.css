@@ -1,0 +1,27 @@
+.destaque_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    margin: 0 auto;
+    width: 76rem;
+    grid-template-areas:  
+    "item_1 tem_1 item_2"
+    "item_1 tem_1 item_2";
+}
+
+.destaque_img_principal{
+    background-image: url("http://localhost/blog/images/casa.webp");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   height: 100%;
+}
+
+.img_secundarias{
+    background-image: url("http://localhost/blog/images/casa.webp");
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; grid-area: item_2;
+}
