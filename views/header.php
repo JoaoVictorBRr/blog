@@ -14,8 +14,7 @@
 <body>
 
 <header>
-
-    <img class="logo_duo" width="280px"  src="./images/logotipo.svg" alt="logo_duo">
+    <a href="./"> <img class="logo_duo" width="280px"  src="./images/logotipo.svg" alt="logo_duo"></a>
 
     <div class="container_menus">
 
@@ -30,11 +29,11 @@
         </div>
 
         <nav class="nav_menus">
-            <a class="menu_item" href="">CONHEÇA OS BAIRROS</a>
-            <a class="menu_item" href="">MERCADO IMOBILIÁRIO</a>
-            <a class="menu_item" href="">LANÇAMENTOS</a>
-            <a class="menu_item" href="">DUO+</a>
-            <a class="menu_item" href="">DECORAÇÃO E PAISAGISMO</a>
+            <a class="menu_item" href="./conheca-os-bairros">CONHEÇA OS BAIRROS</a>
+            <a class="menu_item" href="./mercado-imob">MERCADO IMOBILIÁRIO</a>
+            <a class="menu_item" href="./lancamento">LANÇAMENTOS</a>
+            <a class="menu_item" href="./duo">DUO+</a>
+            <a class="menu_item" href="./decoracao-e-paisagismo">DECORAÇÃO E PAISAGISMO</a>
         </nav>
     </div>
 

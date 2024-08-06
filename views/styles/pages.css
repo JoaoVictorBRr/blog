@@ -1,12 +1,13 @@
 .destaque_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 73% 1fr;
     grid-template-rows: auto;
-    margin: 0 auto;
-    width: 76rem;
     grid-template-areas:  
-    "item_1 tem_1 item_2"
     "item_1 tem_1 item_2";
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 76rem;
+ 
 }
 
 .destaque_img_principal{
@@ -15,13 +16,196 @@
     background-position: center; 
     background-repeat: no-repeat;
     border-radius: 10px;
-   height: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    gap: 20px;
 }
+
+.destaque_title_principal{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.destaque_dec_principal{
+    color: white;
+}
+
+.destaque_leia_principal{
+    color: white;
+    font-weight: 600;
+}
+
 
 .img_secundarias{
     background-image: url("http://localhost/blog/images/casa.webp");
     border-radius: 10px;
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; grid-area: item_2;
+    background-repeat: no-repeat;
+    height: 190px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.destaque_item_1{
+    grid-area: item_1;
+}
+
+.destaque_item_2{
+    grid-area: item_2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.anuncios_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.anuncios_img{
+    width: 388px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* /////////////////// */
+
+.mais_conteudos_container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:  
+    "item_01 item_02";
+    margin: 0 auto ;
+    width: 76rem;
+    margin-top: 50px;
+    gap:40px;
+}
+
+.conteudos_column_1{
+    grid-area: item_01;
+}
+
+.conteudos_column_2{
+    grid-area: item_02;
+}
+
+.mais_conteudos_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo{
+    display: flex;
+    gap: 20px;
+}
+
+.mais_acessados{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mais_acessados_item{
+    display: flex;
+    gap: 20px;
+}
+
+.mais_acessados_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.conteudo_img{
+    width: 330px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.texts_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div_title_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title_conteudo_outros{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.title_conteudos{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.title_mais_conteudos{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.title_mais_acessados{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.btn_leia_mais{
+    color:  rgb(147, 0, 0);
+    font-weight: 600;
+}
+
+.outras_categorias{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.outras_categorias_column{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.img_categorias{
+    background-image: url("http://localhost/blog/images/casa.webp");
+    background-image: url("http://localhost/blog/images/casa.webp");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 80px;
+}
+
+
+
+.ancor_categorias{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
