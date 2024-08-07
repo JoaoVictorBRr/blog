@@ -12,13 +12,13 @@ Class Pages{
 
     }
     
-    public function homePage(){
+    public function HomePage(){
         echo $this->view->render("header");
         echo $this->view->render("home");
         echo $this->view->render("footer");
     }
 
-    public function conhecaBairrosPage(){
+    public function ConhecaBairrosPage(){
         echo $this->view->render("header");
         echo $this->view->render("conheca-os-bairros");
         echo $this->view->render("footer");
